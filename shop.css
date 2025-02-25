@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(250, 217, 217);
+}
+/* navbar styling */
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.item a{
+    text-decoration: none;
+    list-style: none;
+    margin: 5px 30px;
+    padding: 3px 25px;
+    color: white;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 23px;
+    position: relative;
+    animation-name: animatnav;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+@keyframes animatnav{
+    0%{
+        top: 150px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+.item a:hover{
+    background-color: white;
+    color: black;
+}
+#logo{
+    margin: 4px;
+    padding: 6px;
+}
+#logo img{
+    height: 78px;
+    position: relative;
+    animation-name: animatlogo;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+@keyframes animatlogo{
+    0%{
+        top: 150px;
+    }
+    100%{
+        top: 0px; ;
+    }
+}
+/* back ground web pic */
+.webpic p{
+    justify-content: center;
+    padding: 30px 180px;
+    font-size: 1.65rem;
+    text-align: center;
+}
+.webpic{
+    background-image: url(bgimg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: -1;
+    background-size: 160vh;
+    opacity: 80%;
+}
+/* heading 1 */
+h1{
+    text-align: center;
+    font-size: 55px;
+    padding: 15px 0px;
+    position: relative;
+    animation-name: animatheading;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+@keyframes animatheading{
+    0%{
+        left: 250px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+/* product jackets*/
+.j1 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+}
+.j2 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+
+}
+.j3 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+    
+}
+.j4 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+    
+}
+.j5 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+}
+.j1 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.j2 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.j3 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.j4 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.j5 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.jackets{
+    display:flex;
+    padding: 7px 180px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(250, 217, 217);
+}
+
+/* Hoodies */
+.h1 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+}
+.h2 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+
+}
+.h3 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+    
+}
+.h4 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+    
+}
+.h1 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.h2 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.h3 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.h4 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.hoodies{
+    display:flex;
+    padding: 7px 180px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:rgb(250, 217, 217);
+}
+/* Uppers */
+.u1 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+}
+.u2 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+
+}
+.u3 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+    
+}
+.u4 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+    
+}
+.u1 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.u2 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.u3 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.u4 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.upper{
+    display:flex;
+    padding: 7px 180px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:rgb(250, 217, 217);
+}
+/* watches  */
+.w1 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+}
+.w2 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+
+}
+.w3 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+    
+}
+.w4 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+    
+}
+.w5 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+    
+}
+.w1 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.w2 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.w3 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.w4 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.w5 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.watches{
+    display:flex;
+    padding: 7px 180px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(250, 217, 217);
+    flex-wrap: wrap;
+}
+/* perfumes */
+.p1 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+}
+.p2 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+
+}
+.p3 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+    
+}
+.p4 img{
+    height: 32vh;
+    border: 2px solid black;
+    border-radius: 22px;
+}
+.p1 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.p2 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.p3 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.p4 a img:hover{
+    height: 35vh;
+    border: 5px solid red;
+}
+.perfumes{
+    display:flex;
+    padding: 7px 180px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:rgb(250, 217, 217);
+}
+/* Footer */
+footer{
+    background-color: black;
+margin: 5px 30px;
+padding: 3px 25px;
+color: white;
+font-size: 1.6rem;
+text-align: center;
+height: 22vh;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.yt a img{
+    border: 2px solid black;
+    height: 12vh;
+    padding: 1px 4px 0px;
+    border-radius: 300px;
+}
+.fb a img{
+    border: 2px solid black;
+    height: 10vh;
+    padding: 5px 8px 5px;
+    border-radius: 300px
+}
+.insta a img{
+    border: 2px solid black;
+    height: 10vh;
+    padding: 5px 8px 5px;
+    border-radius: 300px;
+}
+.yt a :hover{
+    background-color: white;
+}
+.insta a :hover{
+    background-color: white;
+}
+.fb a :hover{
+    background-color: white;
+}
